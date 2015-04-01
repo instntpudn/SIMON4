@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <Button
+        android:layout_width="190sp"
+        android:layout_height="190sp"
+        android:id="@+id/btn1"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff4bff41" />
+
+    <Button
+        android:layout_width="190sp"
+        android:layout_height="190sp"
+        android:id="@+id/btn2"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_alignParentEnd="true"
+        android:background="#ffff4b48" />
+
+    <Button
+        android:layout_width="190sp"
+        android:layout_height="190sp"
+        android:id="@+id/btn3"
+        android:layout_below="@+id/btn1"
+        android:layout_alignParentStart="true"
+        android:background="#fffaff43" />
+
+    <Button
+        android:layout_width="190sp"
+        android:layout_height="190sp"
+        android:id="@+id/btn4"
+        android:layout_alignBottom="@+id/btn3"
+        android:layout_alignStart="@+id/btn2"
+        android:background="#ff49c2ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        android:id="@+id/restart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT ROUND"
+        android:id="@+id/nxtrnd"
+        android:layout_alignBottom="@+id/restart"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SCORE"
+        android:id="@+id/highscore"
+        android:layout_alignBottom="@+id/nxtrnd"
+        android:layout_alignEnd="@+id/btn4" />
+</RelativeLayout>
